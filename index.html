@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的个人网站</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      color: #fff;
+    }
+    .card {
+      text-align: center;
+      padding: 60px 40px;
+      max-width: 640px;
+    }
+    .avatar {
+      width: 96px; height: 96px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #e94560, #903749);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 40px; font-weight: bold;
+      margin: 0 auto 24px;
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 12px; }
+    .subtitle { color: #a8b2d1; font-size: 1.1rem; margin-bottom: 32px; }
+    .links a {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 24px;
+      border: 1px solid rgba(255,255,255,.35);
+      border-radius: 999px;
+      color: #fff;
+      text-decoration: none;
+      transition: all .25s;
+    }
+    .links a:hover { background: rgba(255,255,255,.15); transform: translateY(-2px); }
+    footer { margin-top: 48px; color: #6b7280; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="avatar">C</div>
+    <h1>你好，我是 Curry</h1>
+    <p class="subtitle">这里是我的个人网站 · 由 GitHub Pages 免费托管</p>
+    <nav class="links">
+      <a href="https://github.com/currygallagher87-ship-it">GitHub</a>
+      <a href="mailto:you@example.com">联系我</a>
+    </nav>
+    <footer>&copy; 2026 · Powered by GitHub Pages</footer>
+  </main>
+</body>
+</html>
